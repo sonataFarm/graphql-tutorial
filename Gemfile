@@ -53,3 +53,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'graphiql-rails', '1.4.4', group: :development
+
+# Added at 2018-02-14 08:30:13 -0800 by nate:
+gem "pry-rails", "~> 0.3.6"
+
+# Added at 2018-02-14 08:32:04 -0800 by nate:
+gem "method_source", "~> 0.9.0"
