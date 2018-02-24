@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   has_secure_password
   has_many :links
+  has_many :votes
 
   validates :name, :email, presence: true
   validates :email, uniqueness: true
