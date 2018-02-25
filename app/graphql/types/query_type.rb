@@ -13,4 +13,6 @@ Types::QueryType = GraphQL::ObjectType.define do
   end
 
   field :getUserById, function: Resolvers::GetUserById.new
+
+  field :allLinks, function: Resolvers::LinksSearch
 end
